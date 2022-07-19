@@ -1,0 +1,106 @@
+body {
+    height: 100%;
+    box-sizing: border-box;
+}
+em {
+    font-style: normal;
+}
+strong {
+    font-style: normal;
+}
+nav {
+    margin-bottom: -1em;
+}
+a{
+    text-decoration:none;
+ }
+ a:hover {
+    text-decoration:underline;
+ }
+.img-fluid {
+    margin-bottom: 0.5in;
+    padding-top: 1em;
+}
+h2 {
+    text-align: justify;
+    margin-right: 0.6in;
+    margin-left: 0.6in;
+}
+p {
+    text-indent: 40px;
+    margin-right: 0.75in;
+    margin-left: 0.75in;
+}
+.end-p {
+    margin-bottom: 1em;
+}
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #00bab9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #008cba;
+}
+.my-container {
+    border-radius: 10px;
+    padding: 10px;
+}
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 1024px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+#footerBtn {
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: #00bab9;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #f8f9fa;
+  }
+#footerBtn:hover {
+    background-color: #ffffff;
+  }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+footer {
+    margin-top: -1em;
+    padding: 1em;
+}
+#style {
+    height: 170px;
+}
+#me {
+    width: 100%;
+}
+.c-header {
+    text-align: center;
+}

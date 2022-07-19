@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <div class="overflow-auto">
+            <nav class="bg-light">
+                <div class="container">
+                    <ul class="nav justify-content-center font-monospace fs-3">
+                        <li class="nav-item">
+                            <a class="nav-link active link-info" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active link-info" aria-current="page" href="/switch.html">Career Shift</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active link-info" aria-current="page" href="/hobbies.html">My Hobbies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active link-info" aria-current="page" href="/contact.html">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav><hr>
+            <h2 class="font-monospace lh-sm fw-bold fs-2"><u>Hello, world!</u></h2>
+            <div>
+                <img src="/linkedin.jpg" class="img-fluid center" alt="Hello to you">
+            </div>
+            <div class="mx-auto">
+                <p class="fs-5 lh-sm fw-normal text-start">Hi there! I'm <em>Nikko, a Filipino software engineer aspirant with maritime background</em>. I'm a self-taught programmer enrolled at edX. I'm taking both CS50x Introduction to Computer Science and CS50's Introduction to Programming with Python. I'm also utilizing free online resources such as The Odin Project, freeCodeCamp, as well as various Youtube videos from successsful career shifters. My current skillset includes basic knowledge of HTML/CSS, C, Python and Javascript.</p>
+                <p class="fs-5 lh-sm fw-normal text-start">The path that I'm embarking is full of uncertainties. One thing I'm certain though, is that I'm making progress. And with every bit of progress I counted as successs, bringing me closer to my aspiration.</p>
+                <p class="fs-5 lh-sm fw-normal text-start end-p">Thanks  for visiting my page. Don't hesitate to drop me a line if you want to be a part of my journey. See you!</p>
+            </div><hr>
+
+        <footer class="nav justify-content-center bg-light">
+            <button onclick="goTop()" id="footerBtn" title="Back to top">Back to top</button>
+        </footer>
+        </div>
+
+        <script>
+            let footerBtn = document.getElementById('footerBtn');
+
+            function goTop() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </body>
+</html>

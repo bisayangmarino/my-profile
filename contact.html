@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Contact Me</title>
+    </head>
+    <body>
+        <div class="overflow-auto">
+            <nav>
+                <div class="container">
+                    <ul class="nav justify-content-center font-monospace fs-3">
+                        <li class="nav-item">
+                            <a class="nav-link active link-info" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active link-info" aria-current="page" href="/switch.html">Career Shift</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active link-info" aria-current="page" href="/hobbies.html">My Hobbies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active link-info" aria-current="page" href="/contact.html">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav><hr>
+        <div class="my-container">
+            <div class="c-header">
+                <h2 class="font-monospace lh-sm fw-bold fs-2"><u>Get in touch</u></h2>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img id="me" src="/me.jpg" alt="Me">
+              </div>
+              <div class="column fs-5 fw-normal">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <label for="e-mail">Email</label>
+                  <input type="email" id="e-mail" name="email" placeholder="Your email..">
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                  <input type="submit" value="Submit" disabled>
+                </form>
+              </div>
+            </div>
+          </div>
+
+        <footer class="nav justify-content-center bg-light">
+            <button onclick="goTop()" id="footerBtn" title="Back to top">Back to top</button>
+        </footer>
+        </div>
+
+        <script>
+            let footerBtn = document.getElementById('footerBtn');
+
+            function goTop() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </body>
+</html>

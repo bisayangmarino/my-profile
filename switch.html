@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Career Shift</title>
+    </head>
+    <body>
+        <div class="overflow-auto">
+            <nav>
+                <div class="container">
+                    <ul class="nav justify-content-center font-monospace fs-3">
+                        <li class="nav-item">
+                            <a class="nav-link active link-info" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active link-info" aria-current="page" href="/switch.html">Career Shift</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active link-info" aria-current="page" href="/hobbies.html">My Hobbies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active link-info" aria-current="page" href="/contact.html">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav><hr>
+            <div>
+                <h2 class="font-monospace lh-sm fw-bold fs-2"><u>Change of scenery</u></h2>
+            </div>
+            <div>
+                <img src="/career.jpg" class="img-fluid center" alt="Staring at the sea">
+            </div>
+            <div class="mx-auto">
+                <p class="fs-5 lh-sm fw-normal text-start">I have seen this coming even before I joined my first ship. I have been curious with how computer softwares/programs are made ever since I played my first computer game. I buried that curiosity when I decided to join a maritime school. As I continued my studies, there was this one practical advice from my college instructors whom are fellow seafarers that stuck with me:<br><i> "Our profession is a high-risk and short-lived one - one foot in the grave. It lasts only for as long as we are mentally, physically and psychologically healthy."</i></p>
+                <p class="fs-5 lh-sm fw-normal text-start">I started my career at sea on September of 2013. The first time is always tbe hardest as they say. Learning to adopt to my new environment has been challenging. More importantly, I find the experience valuable, especially in improving my self-discipline and be more mature. Being isolated far away from everyone will give you a different perspective in life.</p>
+                <p class="fs-5 lh-sm fw-normal text-start">And then, pandemic happened. Lockdown was implemented and was stuck at home with an unfamiliar situation. Prior to that, my life revolved mainly on - joining a ship, finishing my contract, going home for vacation. Now with more free time available, I decided to indulge myself with learning other stuffs not maritime related. My curiosity with programming steamrolled into a passion from which I decided that I want to take on this new profession. A new career. A change of scenery. As Albert Einstein once quoted: <br><i>"In the middle of adversity there is great opportunity."</i></p>
+            </div><hr>
+
+        <footer class="nav justify-content-center bg-light">
+            <button onclick="goTop()" id="footerBtn" title="Back to top">Back to top</button>
+        </footer>
+        </div>
+
+        <script>
+            let footerBtn = document.getElementById('footerBtn');
+
+            function goTop() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </body>
+</html>
